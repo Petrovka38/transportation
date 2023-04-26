@@ -2,10 +2,23 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 ul, ol {
+    text-decoration: none;
+    list-style-type: none;
+    
     margin: 0;
     padding-left: 0;}
 .header {
+    padding: 10px;
     background-color: orange;
+}
+.header-menu {
+    display: flex;
+}
+li a {
+    text-decoration: none;
+}
+.header-logo {
+    display: flex;
 }
 .section {
     background-color: red;
@@ -17,5 +30,25 @@ ul, ol {
     height: auto;
     padding-bottom: 700px;
 }
-
-
+.section-example {
+    background-color: purple;
+}
+.example-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    
+} 
+.example-ul li{
+    
+    background-color: #fff;
+}
+.example-list {
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% / 3 - 30px);
+    /* flex-basis: calc((100% - 3 *40px) / 4); */
+}
+.example-box {
+    
+}
