@@ -13,12 +13,19 @@ ul, ol {
 }
 .header-menu {
     display: flex;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 li a {
     text-decoration: none;
 }
 .header-logo {
     display: flex;
+}
+.header-text {
+    margin: 10px;
 }
 .section {
     background-color: red;
@@ -28,7 +35,19 @@ li a {
     background-size: cover;
     max-width: 1600px;
     height: auto;
-    padding-bottom: 700px;
+    /* padding-bottom: 700px; */
+}
+.section-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 350px;
+    padding-bottom: 350px;
+    
 }
 .section-example {
     background-color: purple;
@@ -44,11 +63,10 @@ li a {
     background-color: #fff;
 }
 .example-list {
-    padding: 10px;
+    width: calc(100%/3-30px);
     margin: 10px;
-    width: calc(100% / 3 - 30px);
-    /* flex-basis: calc((100% - 3 *40px) / 4); */
-}
+}   
+
 .example-box {
-    
+    width: 370px;
 }
